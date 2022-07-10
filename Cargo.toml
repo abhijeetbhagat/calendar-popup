@@ -1,0 +1,10 @@
+[package]
+name = "cal-popup"
+version = "0.18.0"
+edition = "2021"
+
+[dependencies]
+egui_extras = { git = "ssh://git@github.com/abhijeetbhagat/egui", branch = "calendar-popup-mod", features = ["chrono"] }
+egui = { git = "ssh://git@github.com/abhijeetbhagat/egui", branch = "calendar-popup-mod" }
+eframe = { git = "ssh://git@github.com/abhijeetbhagat/egui", branch = "calendar-popup-mod" }
+chrono = { version = "0.4.19" }
